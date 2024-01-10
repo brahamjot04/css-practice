@@ -1,3 +1,7 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
 body {
   background-color: #f4f4f4;
   color: #555555;
@@ -10,6 +14,24 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: black;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -18,4 +40,56 @@ body {
 .box-1 {
   background-color: #333333;
   color: #fff;
+
+  /* border-right: 5px solid red;
+  border-left: 5px solid red;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red; */
+
+  /* border-width: 0.2rem;
+  border-bottom-width: 10px;
+  border-top-style: dotted; */
+
+  border: 5px solid red;
+  padding: 20px;
+
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: Homa, Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+
+.box-2 {
+  border: 3px dotted #cccccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.categories {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  list-style: square;
+  /* list-style: none; */
+}
+
+.categories li {
+  padding: 0 0 8px 0;
+  border: dotted 1px #333;
+  /* list-style-image: url("../images/check.png"); */
+
 }
