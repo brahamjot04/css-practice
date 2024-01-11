@@ -197,3 +197,15 @@ a:visited {
 .my-list li:first-child {
   color: red;
 }
+
+.my-list li:last-child {
+  color: green;
+}
+
+.my-list li:nth-child(5) {
+  color: blue;
+}
+
+.my-list li:nth-child(even) {
+  background-color: yellow;
+}
